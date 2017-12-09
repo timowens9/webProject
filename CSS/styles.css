@@ -1,0 +1,469 @@
+.home {
+
+    background-image: url("../Images/background_home.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.aboutMe{
+    background-image: url("../Images/test.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.travel{
+    background-image: url("../Images/background_travel.jpg");
+    background-repeat: repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.projects{
+    background-image: url("../Images/background_projects.jpeg");
+    background-repeat: repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.more{
+    background-image: url("../Images/background_more.jpg");
+    background-repeat: repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.header{
+    position: absolute;
+    top:0;
+    float: left;
+    margin:0;
+    padding: 270px 0 0 0 ;
+    width: 100%;
+    left: 0px;
+    margin-left: 0;
+    background-repeat: repeat-x;
+    background-image:url("../Images/background_resume_header.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+    /*width: 150px;*/
+    /*height: 38px;*/
+/*}*/
+
+#header{
+    position: absolute;
+    top:0;
+    float: left;
+    margin:0;
+    padding: 270px 0 0 0 ;
+    width: 100%;
+    left: 0px;
+    margin-left: 0;
+    background-repeat: repeat-x;
+    background-image:url("../Images/background_header_contact.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.resume{
+    background-color: #333;
+}
+.contact{
+    background-color: #333;
+}
+.more{
+    background-color: #333;
+}
+
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.about {
+    border-radius: 25px;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    /*opacity: 0.1;*/
+    border: 3px solid #333;
+
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color:white;
+    width: 50%;
+}
+
+/*The below generates the Contacts Page*/
+.contactMe{
+    border-radius: 25px;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    border: 3px solid #333;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color:white;
+    width: 35%;
+    height: 80%;
+
+}
+.followMe{
+    border-radius: 25px;
+    position: fixed;
+    top: 300px;
+    left: 35px;
+    border: 3px solid #333;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color:white;
+    width: 20%;
+    height: 28%;
+}
+
+.gitLogo{
+    position: absolute;
+    top:125px;
+    float: left;
+    margin:0;
+    width: 100px;
+    left: 180px;
+    border-radius: 25%;
+}
+
+.linkedLogo{
+    position: absolute;
+    top:380px;
+    float: left;
+    margin:0;
+    width: 100px;
+    left: 115px;
+    border-radius: 25%;
+}
+/*The below generates the Project Page*/
+.projectInfo{
+    border-radius: 25px;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    border: 3px solid #333;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color:white;
+    width: 35%;
+    height: 50%;
+}
+/*The below generates the More Page*/
+
+.moreInfo {
+
+    border-radius: 25px;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    border: 3px solid #333;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: white;
+    width: 35%;
+    height: 80%;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+}
+/*The Below creates the Resume page*/
+.resume_tim{
+    border-radius: 25px;
+    position: fixed;
+    top: 85px;
+    left: 300px;
+    border: 3px solid #333;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color:white;
+    width: 50%;
+    height: 80%;
+
+}
+/*The below code creates the travel page and the photo slide show*/
+
+/*}*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    border-radius: 25px;
+    position: fixed;
+    top: 85px;
+    left: 50px;
+    border: 3px solid #333;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color:white;
+    width: 90%;
+    height: 80%;
+}
+.slideshow-container > div {
+    border-radius: 25px;
+    position: fixed;
+    max-width: 100%;
+    top:100px;
+    left: 100px;
+    /*width: 100px;*/
+    /*height:100px;*/
+
+    /*max-height: 100%;*/
+}
+.slideshow-container > div > img {
+
+    position: relative;
+    height: 500px;
+    width:1060px;
+    /*!*width: 100%;*!*/
+}
+
+
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text  */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.8s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+#h1{
+
+    font: 300 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+#p1{
+    font-family: 'Cutive';font-size: 22px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#tableForm{
+    color: white;
+    display: table;
+    padding: 15px;
+}
+.row{
+    display: table-row;
+}
+
+.row label{
+    display: table-cell;
+    padding: 10px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.row input{
+    border-radius: 25px;
+    display: table-cell;
+    padding: 5px;
+}
+
+label,
+textarea{
+    display:inline-block;
+    vertical-align:middle;
+    border-radius: 8px;
+
+}
+#submitButton{
+    border-radius: 8px;
+    background-color:#333;
+    padding : 15px 30px 14px 30px;
+    position: relative;
+    bottom: -10px;
+    left: 225px;
+    transform: translateX(-50%);
+
+
+    color:#FFF;
+    border:none;
+
+    background-color: blue;
+}
+#submit-button:hover {
+    background-color: #ddd;
+}
+#submit-button:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+}
+
+
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+figure {
+    position:fixed;
+    left: 50%;
+    top:  50%;
+    margin-left: -200px;
+    margin-top:  -240px;
+}
+
+
+figure img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure figcaption {
+
+    text-align: center;
+    font-family: Helvetica;
+    font-style: oblique;
+    font-size: 32px;
+    font-weight: 900;
+    color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0%;
+    display: inline-block;
+    background-color: #333;
+    overflow: auto;
+
+    text-align: center;
+
+    /*width: 500px;*/
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    prev, .next,.text {font-size: 11px}
+
+
+}
